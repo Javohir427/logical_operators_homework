@@ -9,3 +9,8 @@ def main(a,b,c):
         bool: answer
     """
     return
+    def main(a,b,c):
+        x = a>b>c
+       
+        return(x)
+print(main(2,3,4))
