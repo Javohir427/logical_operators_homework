@@ -7,10 +7,6 @@ def main(a,b,c):
         c(int): parameter c
     Returns:
         bool: answer
-    """
-    return
-    def main(a,b,c):
-        x = a>b>c
-       
-        return(x)
-print(main(2,3,4))
+    """       
+    return a<=b and b<=c
+print(main(2,8,4))
