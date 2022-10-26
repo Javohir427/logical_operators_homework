@@ -9,5 +9,5 @@ def main(a,b,c):
         bool: answer
     """       
     return a<=b and b<=c
-print(main(2,8,4))
+print(main(3,4,5))
  
