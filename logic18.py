@@ -5,4 +5,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return (9999<a<100000 and a%10>a%100//10>a//100%10>a//1000%10>a//10000)
+
+print(main(12375))
