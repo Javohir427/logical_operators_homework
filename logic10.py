@@ -11,4 +11,4 @@ def main(a):
     """
     return (9<a<100)
 
-print(main(5))
+print(main(5)) 
