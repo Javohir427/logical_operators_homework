@@ -8,4 +8,4 @@ def main(a):
     """
     return (9<a<99 and a//10==a%10)
 
-print(main(33))
+print(main(42))
