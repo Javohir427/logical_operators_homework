@@ -1,3 +1,6 @@
+
+
+
 def main(a):
     """
     Given integer a,  check the following statement "The integer is two-digit number".
@@ -6,4 +9,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return (9<a<100)
+
+print(main(5))
